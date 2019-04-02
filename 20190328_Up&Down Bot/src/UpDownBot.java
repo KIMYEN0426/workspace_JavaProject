@@ -9,8 +9,8 @@ public class UpDownBot {
 		int end = 100;
 		
 		while(true) {
-		//int rNumber = random.nextInt(end+1-start)+start; //1~100
-		int rNumber = random.nextInt((end+1-start)/2); //<- 최적화
+		int rNumber = random.nextInt(end+1-start)+start; //1~100
+		//int rNumber = random.nextInt(end-start)/2; //<- 최적화 기법
 		System.out.println(rNumber);
 		String my = sc.nextLine();
 		
