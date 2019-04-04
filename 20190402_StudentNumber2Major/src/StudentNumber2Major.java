@@ -8,8 +8,8 @@ public class StudentNumber2Major {
 		System.out.print("학번을 입력하세요>>");
 		String number = sc.nextLine();//학번 입력
 		
-		char grade = number.charAt(0);
-		char ban = number.charAt(1);
+		char grade = number.charAt(0); //<== String grade = studentNumber.substring(0,1);
+		char ban = number.charAt(1); //<==String classroom = studentNumber.substring(1,2);
 		
 		switch(grade) {
 		case '1': case '2': switch(ban) {
