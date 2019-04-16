@@ -7,6 +7,11 @@ public class Nsum {
 		Scanner sc = new Scanner(System.in);
 		
 		String number = sc.next(); //숫자 입력받기
+		
+		nSum(number); //더한 값을 출력하자	
+	}
+
+	private static void nSum(String number) {
 		int numberlength = number.length();
 		int sum = 0;
 		char num;
@@ -16,8 +21,6 @@ public class Nsum {
 			sum+=num-'0';	//각 자릿수의 수를 더하자
 		}
 		
-		System.out.println("각 자리 수를 더한 값 : "+sum); //더한 값을 출력하자
-		
+		System.out.println("각 자리 수를 더한 값 : "+sum);
 	}
-
 }
