@@ -13,9 +13,9 @@ public class Yaho {
 		frame.setPreferredSize(new Dimension(300,200));
 		
 		JPanel panel = new JPanel();
-		JLabel label = new JLabel("ID:");
+		JLabel label = new JLabel("야호");
 		
-		JTextField tf= new JTextField("아이디를 입력하세요");
+		JTextField tf= new JTextField("야호");
 		//클릭하면 안내문구 지우자
 		//tf.setSize(100,200);
 		//tf.setText(" ");
