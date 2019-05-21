@@ -27,6 +27,8 @@ public class GUITest4_ImageIcon {
 		//ImageIcon 크기 수정
 		ImageIcon smallbutton1 = new ImageIcon(button1.getImage().getScaledInstance(200, 200, Image.SCALE_DEFAULT));
 		JButton imageButton = new JButton(smallbutton1);
+		imageButton.setRolloverIcon(Introbackground);
+		imageButton.setPressedIcon(button1);
 		
 		panel.add(imageLabel);
 		panel.add(imageButton);
